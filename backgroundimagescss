@@ -1,0 +1,19 @@
+<!--how to add background images in css tutorial-->
+<!DOCTYPE html>
+<html> 
+	<head>
+		<title>background images</title>
+		<style type="text/css">
+		body{
+			background-image:url(tulips.jpg); <!-- the image will repeat or tile itself-->
+			background-repeat:no-repeat; <!-- the image will display once-->
+			background-repeat:repeat-x; <!-- the image will repeat left to right-->
+			background-repeat:repeat-y; <!-- the image will repeat up and down-->
+			background-position: 10px 60px; <!-- the image is moved 10px to right and 60px down-->
+			background-position: 50% 60px; <!-- the image is centered since the image is 50% to the right and left of the browser-->
+		}
+		</style>
+	</head>
+	<body>
+	</body>
+	</html>
