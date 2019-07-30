@@ -7,20 +7,34 @@
 		CSS is the designer for html
 		use the style tag to had css design elements to you html page
 		use the attribute type-->
-		<!--p is the element name of the paragraph tag in the html body
+		
+		    <!--p is the element name of the paragraph tag in the html body
 			which is also the css selector
 			color and font:family is the property
 			blue and arial is the value-->
-		<!--color changes the color of the selected element
-			font-family changes the font of the selected element
+		
+		    <!--body manipulates all of the page elements
+			color changes the color of the selected element
+			use rgb(stands for red green blue) values to select a specific color such as #462072
+			background-color changes the color of the page
+                        font-family changes the font of the selected element
 			line-height changes the spacing between the lines of text
 			font-weight changes the thickness of the text
-			font-style changes the look of the font such as italicizing the text-->	
+			font-style changes the look of the font such as italicizing the text
+			text-align changes where the text is display such as left, right, center, and justified
+			text-indent chandes how much the text is indented which is a nice way to seperate paragraphs-->	
 		<style type="text/css">
-			h1 {color:#462072;}
+			body {
+			    background-color:blue;
+			    color:white;
+			}
+			h1 {color:#462072;
+			    text-align:center;
+			}
 			p {color:blue; 
 			   font-family:arial;
 			   line-height:150%;
+			   text-indent:25px;
 			}
 			ul {font-weight:bold;}
 			ol {font-style:italic;}
